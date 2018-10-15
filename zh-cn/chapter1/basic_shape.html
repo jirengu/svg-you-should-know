@@ -1,0 +1,628 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-cn" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>基本形状 · svg you should know</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-theme-vuejs-2/vue.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="path.html" />
+    
+    
+    <link rel="prev" href="grid.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="輸入並搜尋" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="readme.html">
+            
+                <a href="readme.html">
+            
+                    
+                    SVG 绘制图形
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="sample.html">
+            
+                <a href="sample.html">
+            
+                    
+                    一个 SVG 范例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="use_svg.html">
+            
+                <a href="use_svg.html">
+            
+                    
+                    SVG 使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="grid.html">
+            
+                <a href="grid.html">
+            
+                    
+                    坐标定位
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.4" data-path="basic_shape.html">
+            
+                <a href="basic_shape.html">
+            
+                    
+                    基本形状
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="path.html">
+            
+                <a href="path.html">
+            
+                    
+                    路径
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="fill_and_stroke.html">
+            
+                <a href="fill_and_stroke.html">
+            
+                    
+                    填充与边框
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="gradients.html">
+            
+                <a href="gradients.html">
+            
+                    
+                    渐变
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="pattens.html">
+            
+                <a href="pattens.html">
+            
+                    
+                    图案
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="text.html">
+            
+                <a href="text.html">
+            
+                    
+                    文字
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="transformations.html">
+            
+                <a href="transformations.html">
+            
+                    
+                    基本变换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="cut_mask.html">
+            
+                <a href="cut_mask.html">
+            
+                    
+                    剪切和遮罩
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="imbed_img.html">
+            
+                <a href="imbed_img.html">
+            
+                    
+                    嵌入图像
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    实战
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="svg_icon.html">
+            
+                <a href="svg_icon.html">
+            
+                    
+                    SVG 图标
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../chapter2/chessBoard.html">
+            
+                <a href="../chapter2/chessBoard.html">
+            
+                    
+                    棋盘
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../chapter2/circle.html">
+            
+                <a href="../chapter2/circle.html">
+            
+                    
+                    环形百分比进度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../chapter2/movingLogo.html">
+            
+                <a href="../chapter2/movingLogo.html">
+            
+                    
+                    镂空背景动图 Logo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../chapter2/moving_pikaqiu.html">
+            
+                <a href="../chapter2/moving_pikaqiu.html">
+            
+                    
+                    会动的皮卡丘
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本書使用 GitBook 釋出
+        </a>
+    </li>
+</ul>
+
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >基本形状</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x57FA;&#x672C;&#x5F62;&#x72B6;">&#x57FA;&#x672C;&#x5F62;&#x72B6;</h1>
+<p>&#x8981;&#x60F3;&#x63D2;&#x5165;&#x4E00;&#x4E2A;&#x5F62;&#x72B6;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5728;&#x6587;&#x6863;&#x4E2D;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x3002;&#x4E0D;&#x540C;&#x7684;&#x5143;&#x7D20;&#x5BF9;&#x5E94;&#x7740;&#x4E0D;&#x540C;&#x7684;&#x5F62;&#x72B6;&#xFF0C;&#x5E76;&#x4E14;&#x4F7F;&#x7528;&#x4E0D;&#x540C;&#x7684;&#x5C5E;&#x6027;&#x6765;&#x5B9A;&#x4E49;&#x56FE;&#x5F62;&#x7684;&#x5927;&#x5C0F;&#x548C;&#x4F4D;&#x7F6E;</p>
+<pre><code>&lt;?xml version=&quot;1.0&quot; standalone=&quot;no&quot;?
+&lt;svg width=&quot;200&quot; height=&quot;250&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+
+  &lt;rect x=&quot;10&quot; y=&quot;10&quot; width=&quot;30&quot; height=&quot;30&quot; stroke=&quot;black&quot; fill=&quot;transparent&quot; stroke-width=&quot;5&quot;/&gt;
+  &lt;rect x=&quot;60&quot; y=&quot;10&quot; rx=&quot;10&quot; ry=&quot;10&quot; width=&quot;30&quot; height=&quot;30&quot; stroke=&quot;black&quot; fill=&quot;transparent&quot; stroke-width=&quot;5&quot;/&gt;
+
+  &lt;circle cx=&quot;25&quot; cy=&quot;75&quot; r=&quot;20&quot; stroke=&quot;red&quot; fill=&quot;transparent&quot; stroke-width=&quot;5&quot;/&gt;
+  &lt;ellipse cx=&quot;75&quot; cy=&quot;75&quot; rx=&quot;20&quot; ry=&quot;5&quot; stroke=&quot;red&quot; fill=&quot;transparent&quot; stroke-width=&quot;5&quot;/&gt;
+
+  &lt;line x1=&quot;10&quot; x2=&quot;50&quot; y1=&quot;110&quot; y2=&quot;150&quot; stroke=&quot;orange&quot; fill=&quot;transparent&quot; stroke-width=&quot;5&quot;/&gt;
+  &lt;polyline points=&quot;60 110 65 120 70 115 75 130 80 125 85 140 90 135 95 150 100 145&quot;
+      stroke=&quot;orange&quot; fill=&quot;transparent&quot; stroke-width=&quot;5&quot;/&gt;
+
+  &lt;polygon points=&quot;50 160 55 180 70 180 60 190 65 205 50 195 35 205 40 190 30 180 45 180&quot;
+      stroke=&quot;green&quot; fill=&quot;transparent&quot; stroke-width=&quot;5&quot;/&gt;
+
+  &lt;path d=&quot;M20,230 Q40,205 50,230 T90,230&quot; fill=&quot;none&quot; stroke=&quot;blue&quot; stroke-width=&quot;5&quot;/&gt;
+&lt;/svg&gt;
+</code></pre><h2 id="&#x77E9;&#x5F62;">&#x77E9;&#x5F62;</h2>
+<p>rect&#x5143;&#x7D20;&#x4F1A;&#x5728;&#x5C4F;&#x5E55;&#x4E0A;&#x7ED8;&#x5236;&#x4E00;&#x4E2A;&#x77E9;&#x5F62; &#x3002;&#x5176;&#x5B9E;&#x53EA;&#x8981;6&#x4E2A;&#x57FA;&#x672C;&#x5C5E;&#x6027;&#x5C31;&#x53EF;&#x4EE5;&#x63A7;&#x5236;&#x5B83;&#x5728;&#x5C4F;&#x5E55;&#x4E0A;&#x7684;&#x4F4D;&#x7F6E;&#x548C;&#x5F62;&#x72B6;&#x3002;rx&#x548C;ry&#x5C5E;&#x6027;&#x7528;&#x6765;&#x63A7;&#x5236;&#x5706;&#x89D2;&#x3002;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x8BBE;&#x7F6E;&#x5706;&#x89D2;&#xFF0C;&#x5219;&#x9ED8;&#x8BA4;&#x4E3A;0&#x3002;</p>
+<pre><code>&lt;rect x=&quot;10&quot; y=&quot;10&quot; width=&quot;30&quot; height=&quot;30&quot;/&gt;
+&lt;rect x=&quot;60&quot; y=&quot;10&quot; rx=&quot;10&quot; ry=&quot;10&quot; width=&quot;30&quot; height=&quot;30&quot;/&gt;
+</code></pre><ul>
+<li>x<ul>
+<li>&#x77E9;&#x5F62;&#x5DE6;&#x4E0A;&#x89D2;&#x7684;x&#x4F4D;&#x7F6E;</li>
+</ul>
+</li>
+<li>y<ul>
+<li>&#x77E9;&#x5F62;&#x5DE6;&#x4E0A;&#x89D2;&#x7684;y&#x4F4D;&#x7F6E;</li>
+</ul>
+</li>
+<li>width <ul>
+<li>&#x77E9;&#x5F62;&#x7684;&#x5BBD;&#x5EA6;</li>
+</ul>
+</li>
+<li>height<ul>
+<li>&#x77E9;&#x5F62;&#x7684;&#x9AD8;&#x5EA6;</li>
+</ul>
+</li>
+<li>rx<ul>
+<li>&#x5706;&#x89D2;&#x7684;x&#x65B9;&#x4F4D;&#x7684;&#x534A;&#x5F84;</li>
+</ul>
+</li>
+<li>ry<ul>
+<li>&#x5706;&#x89D2;&#x7684;y&#x65B9;&#x4F4D;&#x7684;&#x534A;&#x5F84;</li>
+</ul>
+</li>
+</ul>
+<h2 id="&#x5706;&#x5F62;">&#x5706;&#x5F62;</h2>
+<p>circle&#x5143;&#x7D20;&#x4F1A;&#x5728;&#x5C4F;&#x5E55;&#x4E0A;&#x7ED8;&#x5236;&#x4E00;&#x4E2A;&#x5706;&#x5F62;&#x3002;&#x5B83;&#x53EA;&#x6709;3&#x4E2A;&#x5C5E;&#x6027;&#x7528;&#x6765;&#x8BBE;&#x7F6E;&#x5706;&#x5F62;&#x3002;</p>
+<pre><code>&lt;circle cx=&quot;25&quot; cy=&quot;75&quot; r=&quot;20&quot;/&gt;
+</code></pre><ul>
+<li>r<ul>
+<li>&#x5706;&#x7684;&#x534A;&#x5F84;</li>
+</ul>
+</li>
+<li>cx<ul>
+<li>&#x5706;&#x5FC3;&#x7684;x&#x4F4D;&#x7F6E;</li>
+</ul>
+</li>
+<li>cy<ul>
+<li>&#x5706;&#x5FC3;&#x7684;y&#x4F4D;&#x7F6E;</li>
+</ul>
+</li>
+</ul>
+<h2 id="&#x692D;&#x5706;">&#x692D;&#x5706;</h2>
+<p>Ellipse &#x662F;circle&#x5143;&#x7D20;&#x66F4;&#x901A;&#x7528;&#x7684;&#x5F62;&#x5F0F;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5206;&#x522B;&#x7F29;&#x653E;&#x5706;&#x7684;x&#x534A;&#x5F84;&#x548C;y&#x534A;&#x5F84;&#xFF08;&#x957F;&#x8F74;&#x534A;&#x5F84;&#x548C;&#x77ED;&#x8F74;&#x534A;&#x5F84;&#xFF09;&#x3002;</p>
+<pre><code>&lt;ellipse cx=&quot;75&quot; cy=&quot;75&quot; rx=&quot;20&quot; ry=&quot;5&quot;/&gt;
+</code></pre><ul>
+<li>rx<ul>
+<li>&#x692D;&#x5706;&#x7684;x&#x534A;&#x5F84;</li>
+</ul>
+</li>
+<li>ry<ul>
+<li>&#x692D;&#x5706;&#x7684;y&#x534A;&#x5F84;</li>
+</ul>
+</li>
+<li>cx<ul>
+<li>&#x692D;&#x5706;&#x4E2D;&#x5FC3;&#x7684;x&#x4F4D;&#x7F6E;</li>
+</ul>
+</li>
+<li>cy<ul>
+<li>&#x692D;&#x5706;&#x4E2D;&#x5FC3;&#x7684;y&#x4F4D;&#x7F6E;</li>
+</ul>
+</li>
+</ul>
+<h2 id="&#x76F4;&#x7EBF;">&#x76F4;&#x7EBF;</h2>
+<p>Line &#x7ED8;&#x5236;&#x76F4;&#x7EBF;&#x3002;&#x5B83;&#x53D6;&#x4E24;&#x4E2A;&#x70B9;&#x7684;&#x4F4D;&#x7F6E;&#x4F5C;&#x4E3A;&#x5C5E;&#x6027;&#xFF0C;&#x6307;&#x5B9A;&#x8FD9;&#x6761;&#x7EBF;&#x7684;&#x8D77;&#x70B9;&#x548C;&#x7EC8;&#x70B9;&#x4F4D;&#x7F6E;&#x3002;</p>
+<pre><code>&lt;line x1=&quot;10&quot; x2=&quot;50&quot; y1=&quot;110&quot; y2=&quot;150&quot;/&gt;
+</code></pre><ul>
+<li>x1<ul>
+<li>&#x8D77;&#x70B9;&#x7684;x&#x4F4D;&#x7F6E;</li>
+</ul>
+</li>
+<li>y1<ul>
+<li>&#x8D77;&#x70B9;&#x7684;y&#x4F4D;&#x7F6E;</li>
+</ul>
+</li>
+<li>x2<ul>
+<li>&#x7EC8;&#x70B9;&#x7684;x&#x4F4D;&#x7F6E;</li>
+</ul>
+</li>
+<li>y2<ul>
+<li>&#x7EC8;&#x70B9;&#x7684;y&#x4F4D;&#x7F6E;</li>
+</ul>
+</li>
+</ul>
+<h2 id="&#x6298;&#x7EBF;">&#x6298;&#x7EBF;</h2>
+<p>Polyline&#x662F;&#x4E00;&#x7EC4;&#x8FDE;&#x63A5;&#x5728;&#x4E00;&#x8D77;&#x7684;&#x76F4;&#x7EBF;&#x3002;&#x56E0;&#x4E3A;&#x5B83;&#x53EF;&#x4EE5;&#x6709;&#x5F88;&#x591A;&#x7684;&#x70B9;&#xFF0C;&#x6298;&#x7EBF;&#x7684;&#x7684;&#x6240;&#x6709;&#x70B9;&#x4F4D;&#x7F6E;&#x90FD;&#x653E;&#x5728;&#x4E00;&#x4E2A;points&#x5C5E;&#x6027;&#x4E2D;&#xFF1A;</p>
+<pre><code>&lt;polyline points=&quot;60 110, 65 120, 70 115, 75 130, 80 125, 85 140, 90 135, 95 150, 100 145&quot;/&gt;
+</code></pre><ul>
+<li>points<ul>
+<li>&#x70B9;&#x96C6;&#x6570;&#x5217;&#x3002;&#x6BCF;&#x4E2A;&#x6570;&#x5B57;&#x7528;&#x7A7A;&#x767D;&#x3001;&#x9017;&#x53F7;&#x3001;&#x7EC8;&#x6B62;&#x547D;&#x4EE4;&#x7B26;&#x6216;&#x8005;&#x6362;&#x884C;&#x7B26;&#x5206;&#x9694;&#x5F00;&#x3002;&#x6BCF;&#x4E2A;&#x70B9;&#x5FC5;&#x987B;&#x5305;&#x542B;2&#x4E2A;&#x6570;&#x5B57;&#xFF0C;&#x4E00;&#x4E2A;&#x662F;x&#x5750;&#x6807;&#xFF0C;&#x4E00;&#x4E2A;&#x662F;y&#x5750;&#x6807;&#x3002;&#x6240;&#x4EE5;&#x70B9;&#x5217;&#x8868; (0,0), (1,1) &#x548C;(2,2)&#x53EF;&#x4EE5;&#x5199;&#x6210;&#x8FD9;&#x6837;&#xFF1A;&#x201C;0 0, 1 1, 2 2&#x201D;&#x3002;</li>
+</ul>
+</li>
+</ul>
+<h2 id="&#x591A;&#x8FB9;&#x5F62;">&#x591A;&#x8FB9;&#x5F62;</h2>
+<p>polygon&#x548C;&#x6298;&#x7EBF;&#x5F88;&#x50CF;&#xFF0C;&#x5B83;&#x4EEC;&#x90FD;&#x662F;&#x7531;&#x8FDE;&#x63A5;&#x4E00;&#x7EC4;&#x70B9;&#x96C6;&#x7684;&#x76F4;&#x7EBF;&#x6784;&#x6210;&#x3002;&#x4E0D;&#x540C;&#x7684;&#x662F;&#xFF0C;polygon&#x7684;&#x8DEF;&#x5F84;&#x5728;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x70B9;&#x5904;&#x81EA;&#x52A8;&#x56DE;&#x5230;&#x7B2C;&#x4E00;&#x4E2A;&#x70B9;&#x3002;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;&#xFF0C;&#x77E9;&#x5F62;&#x4E5F;&#x662F;&#x4E00;&#x79CD;&#x591A;&#x8FB9;&#x5F62;&#xFF0C;&#x5982;&#x679C;&#x9700;&#x8981;&#x66F4;&#x591A;&#x7075;&#x6D3B;&#x6027;&#x7684;&#x8BDD;&#xFF0C;&#x4F60;&#x4E5F;&#x53EF;&#x4EE5;&#x7528;&#x591A;&#x8FB9;&#x5F62;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x77E9;&#x5F62;&#x3002;</p>
+<pre><code>&lt;polygon points=&quot;50 160, 55 180, 70 180, 60 190, 65 205, 50 195, 35 205, 40 190, 30 180, 45 180&quot;/&gt;
+</code></pre><ul>
+<li>points<ul>
+<li>&#x70B9;&#x96C6;&#x6570;&#x5217;&#x3002;&#x6BCF;&#x4E2A;&#x6570;&#x5B57;&#x7528;&#x7A7A;&#x767D;&#x7B26;&#x3001;&#x9017;&#x53F7;&#x3001;&#x7EC8;&#x6B62;&#x547D;&#x4EE4;&#x6216;&#x8005;&#x6362;&#x884C;&#x7B26;&#x5206;&#x9694;&#x5F00;&#x3002;&#x6BCF;&#x4E2A;&#x70B9;&#x5FC5;&#x987B;&#x5305;&#x542B;2&#x4E2A;&#x6570;&#x5B57;&#xFF0C;&#x4E00;&#x4E2A;&#x662F;x&#x5750;&#x6807;&#xFF0C;&#x4E00;&#x4E2A;&#x662F;y&#x5750;&#x6807;&#x3002;&#x6240;&#x4EE5;&#x70B9;&#x5217;&#x8868; (0,0), (1,1) &#x548C;(2,2)&#x53EF;&#x4EE5;&#x5199;&#x6210;&#x8FD9;&#x6837;&#xFF1A;&#x201C;0 0, 1 1, 2 2&#x201D;&#x3002;&#x8DEF;&#x5F84;&#x7ED8;&#x5236;&#x5B8C;&#x540E;&#x95ED;&#x5408;&#x56FE;&#x5F62;&#xFF0C;&#x6240;&#x4EE5;&#x6700;&#x7EC8;&#x7684;&#x76F4;&#x7EBF;&#x5C06;&#x4ECE;&#x4F4D;&#x7F6E;(2,2)&#x8FDE;&#x63A5;&#x5230;&#x4F4D;&#x7F6E;(0,0)&#x3002;</li>
+</ul>
+</li>
+</ul>
+<h2 id="&#x8DEF;&#x5F84;">&#x8DEF;&#x5F84;</h2>
+<p>path&#x53EF;&#x80FD;&#x662F;SVG&#x4E2D;&#x6700;&#x5E38;&#x89C1;&#x7684;&#x5F62;&#x72B6;&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x7528;path&#x5143;&#x7D20;&#x7ED8;&#x5236;&#x77E9;&#x5F62;&#xFF08;&#x76F4;&#x89D2;&#x77E9;&#x5F62;&#x6216;&#x8005;&#x5706;&#x89D2;&#x77E9;&#x5F62;&#xFF09;&#x3001;&#x5706;&#x5F62;&#x3001;&#x692D;&#x5706;&#x3001;&#x6298;&#x7EBF;&#x5F62;&#x3001;&#x591A;&#x8FB9;&#x5F62;&#xFF0C;&#x4EE5;&#x53CA;&#x4E00;&#x4E9B;&#x5176;&#x4ED6;&#x7684;&#x5F62;&#x72B6;&#xFF0C;&#x4F8B;&#x5982;&#x8D1D;&#x585E;&#x5C14;&#x66F2;&#x7EBF;&#x3001;2&#x6B21;&#x66F2;&#x7EBF;&#x7B49;&#x66F2;&#x7EBF;&#x3002;&#x56E0;&#x4E3A;path&#x5F88;&#x5F3A;&#x5927;&#x4E5F;&#x5F88;&#x590D;&#x6742;&#xFF0C;&#x6240;&#x4EE5;&#x4F1A;&#x5728;&#x4E0B;&#x4E00;&#x7AE0;&#x8FDB;&#x884C;&#x8BE6;&#x7EC6;&#x4ECB;&#x7ECD;&#x3002;&#x8FD9;&#x91CC;&#x53EA;&#x4ECB;&#x7ECD;&#x4E00;&#x4E2A;&#x5B9A;&#x4E49;&#x8DEF;&#x5F84;&#x5F62;&#x72B6;&#x7684;&#x5C5E;&#x6027;&#x3002;</p>
+<pre><code>&lt;path d=&quot;M 20 230 Q 40 205, 50 230 T 90230&quot;/&gt;
+</code></pre><ul>
+<li>d<ul>
+<li>&#x4E00;&#x4E2A;&#x70B9;&#x96C6;&#x6570;&#x5217;&#x4EE5;&#x53CA;&#x5176;&#x5B83;&#x5173;&#x4E8E;&#x5982;&#x4F55;&#x7ED8;&#x5236;&#x8DEF;&#x5F84;&#x7684;&#x4FE1;&#x606F;</li>
+</ul>
+</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+
+            </div>
+
+            
+                
+                <a href="grid.html" class="navigation navigation-prev " aria-label="Previous page: 坐标定位">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="path.html" class="navigation navigation-next " aria-label="Next page: 路径">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"基本形状","level":"1.2.4","depth":2,"next":{"title":"路径","level":"1.2.5","depth":2,"path":"chapter1/path.md","ref":"chapter1/path.md","articles":[]},"previous":{"title":"坐标定位","level":"1.2.3","depth":2,"path":"chapter1/grid.md","ref":"chapter1/grid.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","theme-vuejs-2","-fontsettings","-highlight","github"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit This Page","base":"https://github.com/jirengu/svg-you-should-know/tree/master/docs"},"github":{"url":"https://github.com/jirengu/css-you-should-know/"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-vuejs-2":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"svg you should know","language":"zh-cn","links":{"sharing":{"facebook":false,"twitter":false}},"gitbook":"*"},"file":{"path":"chapter1/basic_shape.md","mtime":"2018-10-08T07:41:50.832Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-10-15T08:11:01.404Z"},"basePath":"..","book":{"language":"zh-cn"}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+
+    </body>
+</html>
+

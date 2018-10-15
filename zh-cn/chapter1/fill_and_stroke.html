@@ -1,0 +1,597 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-cn" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>填充与边框 · svg you should know</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-theme-vuejs-2/vue.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="gradients.html" />
+    
+    
+    <link rel="prev" href="path.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="輸入並搜尋" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="readme.html">
+            
+                <a href="readme.html">
+            
+                    
+                    SVG 绘制图形
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="sample.html">
+            
+                <a href="sample.html">
+            
+                    
+                    一个 SVG 范例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="use_svg.html">
+            
+                <a href="use_svg.html">
+            
+                    
+                    SVG 使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="grid.html">
+            
+                <a href="grid.html">
+            
+                    
+                    坐标定位
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="basic_shape.html">
+            
+                <a href="basic_shape.html">
+            
+                    
+                    基本形状
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="path.html">
+            
+                <a href="path.html">
+            
+                    
+                    路径
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.6" data-path="fill_and_stroke.html">
+            
+                <a href="fill_and_stroke.html">
+            
+                    
+                    填充与边框
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="gradients.html">
+            
+                <a href="gradients.html">
+            
+                    
+                    渐变
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="pattens.html">
+            
+                <a href="pattens.html">
+            
+                    
+                    图案
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="text.html">
+            
+                <a href="text.html">
+            
+                    
+                    文字
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="transformations.html">
+            
+                <a href="transformations.html">
+            
+                    
+                    基本变换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="cut_mask.html">
+            
+                <a href="cut_mask.html">
+            
+                    
+                    剪切和遮罩
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="imbed_img.html">
+            
+                <a href="imbed_img.html">
+            
+                    
+                    嵌入图像
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    实战
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="svg_icon.html">
+            
+                <a href="svg_icon.html">
+            
+                    
+                    SVG 图标
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../chapter2/chessBoard.html">
+            
+                <a href="../chapter2/chessBoard.html">
+            
+                    
+                    棋盘
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../chapter2/circle.html">
+            
+                <a href="../chapter2/circle.html">
+            
+                    
+                    环形百分比进度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../chapter2/movingLogo.html">
+            
+                <a href="../chapter2/movingLogo.html">
+            
+                    
+                    镂空背景动图 Logo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../chapter2/moving_pikaqiu.html">
+            
+                <a href="../chapter2/moving_pikaqiu.html">
+            
+                    
+                    会动的皮卡丘
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本書使用 GitBook 釋出
+        </a>
+    </li>
+</ul>
+
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >填充与边框</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="fill-&#x548C;-stroke-&#x5C5E;&#x6027;">Fill &#x548C; Stroke &#x5C5E;&#x6027;</h1>
+<h2 id="&#x4E0A;&#x8272;">&#x4E0A;&#x8272;</h2>
+<p>&#x5927;&#x591A;&#x6570;&#x57FA;&#x672C;&#x7684;&#x6D82;&#x8272;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5728;&#x5143;&#x7D20;&#x4E0A;&#x8BBE;&#x7F6E;&#x4E24;&#x4E2A;&#x5C5E;&#x6027;&#x6765;&#x641E;&#x5B9A;&#xFF1A;fill&#x5C5E;&#x6027;&#x548C;stroke&#x5C5E;&#x6027;&#x3002;fill&#x5C5E;&#x6027;&#x8BBE;&#x7F6E;&#x5BF9;&#x8C61;&#x5185;&#x90E8;&#x7684;&#x989C;&#x8272;&#xFF0C;stroke&#x5C5E;&#x6027;&#x8BBE;&#x7F6E;&#x7ED8;&#x5236;&#x5BF9;&#x8C61;&#x7684;&#x7EBF;&#x6761;&#x7684;&#x989C;&#x8272;&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5728;HTML&#x4E2D;&#x7684;CSS&#x989C;&#x8272;&#x547D;&#x540D;&#x65B9;&#x6848;&#x5B9A;&#x4E49;&#x5B83;&#x4EEC;&#x7684;&#x989C;&#x8272;&#xFF0C;&#x6BD4;&#x5982;&#x8BF4;&#x989C;&#x8272;&#x540D;&#xFF08;&#x50CF;red&#x8FD9;&#x79CD;&#xFF09;&#x3001;rgb&#x503C;&#xFF08;&#x50CF;rgb(255,0,0)&#x8FD9;&#x79CD;&#xFF09;&#x3001;&#x5341;&#x516D;&#x8FDB;&#x5236;&#x503C;&#x3001;rgba&#x503C;&#xFF0C;&#x7B49;&#x7B49;&#x3002;</p>
+<pre><code>&lt;rect x=&quot;10&quot; y=&quot;10&quot; width=&quot;100&quot; height=&quot;100&quot; stroke=&quot;blue&quot; fill=&quot;purple&quot;
+       fill-opacity=&quot;0.5&quot; stroke-opacity=&quot;0.8&quot;/&gt;
+</code></pre><p>&#x6B64;&#x5916;&#xFF0C;&#x5728;SVG&#x4E2D;&#x4F60;&#x53EF;&#x4EE5;&#x5206;&#x522B;&#x5B9A;&#x4E49;&#x586B;&#x5145;&#x8272;&#x548C;&#x8FB9;&#x6846;&#x8272;&#x7684;&#x4E0D;&#x900F;&#x660E;&#x5EA6;&#xFF0C;&#x5C5E;&#x6027;fill-opacity&#x63A7;&#x5236;&#x586B;&#x5145;&#x8272;&#x7684;&#x4E0D;&#x900F;&#x660E;&#x5EA6;&#xFF0C;&#x5C5E;&#x6027;stroke-opacity&#x63A7;&#x5236;&#x63CF;&#x8FB9;&#x7684;&#x4E0D;&#x900F;&#x660E;&#x5EA6;&#x3002;</p>
+<blockquote>
+<p>&#x6CE8;&#x610F;&#xFF0C;&#x5BF9;&#x4E8E;&#x652F;&#x6301;rgba&#x503C;&#x7684;&#x6D4F;&#x89C8;&#x5668;&#xFF0C;rgba&#x5E76;&#x4E14;&#x80FD;&#x591F;&#x63D0;&#x4F9B;&#x540C;&#x6837;&#x7684;&#x6548;&#x679C;&#x3002;&#x5982;&#x679C;&#x540C;&#x65F6;&#x6307;&#x5B9A;&#x4E86;rgba&#x503C;&#x548C;&#x586B;&#x5145;/&#x63CF;&#x8FB9;&#x4E0D;&#x900F;&#x660E;&#x5EA6;&#xFF0C;&#x5B83;&#x4EEC;&#x5C06;&#x90FD;&#x88AB;&#x8C03;&#x7528;&#x3002;</p>
+</blockquote>
+<h2 id="&#x63CF;&#x8FB9;">&#x63CF;&#x8FB9;</h2>
+<p>&#x9664;&#x4E86;&#x989C;&#x8272;&#x5C5E;&#x6027;&#xFF0C;&#x8FD8;&#x6709;&#x5176;&#x4ED6;&#x4E00;&#x4E9B;&#x5C5E;&#x6027;&#x7528;&#x6765;&#x63A7;&#x5236;&#x7ED8;&#x5236;&#x63CF;&#x8FB9;&#x7684;&#x65B9;&#x5F0F;&#x3002;</p>
+<p><img src="https://cloud.hunger-valley.com/18-10-15/71026892.jpg" alt=""></p>
+<pre><code>&lt;?xml version=&quot;1.0&quot; standalone=&quot;no&quot;?&gt;
+&lt;svg width=&quot;160&quot; height=&quot;140&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;&gt;
+  &lt;line x1=&quot;40&quot; x2=&quot;120&quot; y1=&quot;20&quot; y2=&quot;20&quot; stroke=&quot;black&quot; stroke-width=&quot;20&quot; stroke-linecap=&quot;butt&quot;/&gt;
+  &lt;line x1=&quot;40&quot; x2=&quot;120&quot; y1=&quot;60&quot; y2=&quot;60&quot; stroke=&quot;black&quot; stroke-width=&quot;20&quot; stroke-linecap=&quot;square&quot;/&gt;
+  &lt;line x1=&quot;40&quot; x2=&quot;120&quot; y1=&quot;100&quot; y2=&quot;100&quot; stroke=&quot;black&quot; stroke-width=&quot;20&quot; stroke-linecap=&quot;round&quot;/&gt;
+&lt;/svg&gt;
+</code></pre><p>stroke-width&#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#x4E86;&#x63CF;&#x8FB9;&#x7684;&#x5BBD;&#x5EA6;&#x3002;&#x6CE8;&#x610F;&#xFF0C;&#x63CF;&#x8FB9;&#x662F;&#x4EE5;&#x8DEF;&#x5F84;&#x4E3A;&#x4E2D;&#x5FC3;&#x7EBF;&#x7ED8;&#x5236;&#x7684;&#xFF0C;&#x5728;&#x4E0A;&#x9762;&#x7684;&#x4F8B;&#x5B50;&#x91CC;&#xFF0C;&#x8DEF;&#x5F84;&#x662F;&#x7C89;&#x7EA2;&#x8272;&#x7684;&#xFF0C;&#x63CF;&#x8FB9;&#x662F;&#x9ED1;&#x8272;&#x7684;&#x3002;&#x5982;&#x4F60;&#x6240;&#x89C1;&#xFF0C;&#x8DEF;&#x5F84;&#x7684;&#x6BCF;&#x4E00;&#x4FA7;&#x90FD;&#x6709;&#x5747;&#x5300;&#x5206;&#x5E03;&#x7684;&#x63CF;&#x8FB9;&#x3002;</p>
+<p>&#x7B2C;&#x4E8C;&#x4E2A;&#x5F71;&#x54CD;&#x63CF;&#x8FB9;&#x7684;&#x5C5E;&#x6027;&#x662F;stroke-linecap&#x5C5E;&#x6027;&#xFF0C;&#x5982;&#x4E0A;&#x6240;&#x793A;&#x3002;&#x5B83;&#x63A7;&#x5236;&#x8FB9;&#x6846;&#x7EC8;&#x70B9;&#x7684;&#x5F62;&#x72B6;&#x3002;</p>
+<p>stroke-linecap&#x5C5E;&#x6027;&#x7684;&#x503C;&#x6709;&#x4E09;&#x79CD;&#x53EF;&#x80FD;&#x503C;&#xFF1A;</p>
+<ul>
+<li>butt&#x7528;&#x76F4;&#x8FB9;&#x7ED3;&#x675F;&#x7EBF;&#x6BB5;&#xFF0C;&#x5B83;&#x662F;&#x5E38;&#x89C4;&#x505A;&#x6CD5;&#xFF0C;&#x7EBF;&#x6BB5;&#x8FB9;&#x754C;90&#x5EA6;&#x5782;&#x76F4;&#x4E8E;&#x63CF;&#x8FB9;&#x7684;&#x65B9;&#x5411;&#x3001;&#x8D2F;&#x7A7F;&#x5B83;&#x7684;&#x7EC8;&#x70B9;&#x3002;</li>
+<li>square&#x7684;&#x6548;&#x679C;&#x5DEE;&#x4E0D;&#x591A;&#xFF0C;&#x4F46;&#x662F;&#x4F1A;&#x7A0D;&#x5FAE;&#x8D85;&#x51FA;&#x5B9E;&#x9645;&#x8DEF;&#x5F84;&#x7684;&#x8303;&#x56F4;&#xFF0C;&#x8D85;&#x51FA;&#x7684;&#x5927;&#x5C0F;&#x7531;stroke-width&#x63A7;&#x5236;&#x3002;</li>
+<li>round&#x8868;&#x793A;&#x8FB9;&#x6846;&#x7684;&#x7EC8;&#x70B9;&#x662F;&#x5706;&#x89D2;&#xFF0C;&#x5706;&#x89D2;&#x7684;&#x534A;&#x5F84;&#x4E5F;&#x662F;&#x7531;stroke-width&#x63A7;&#x5236;&#x7684;&#x3002;
+&#x8FD8;&#x6709;&#x4E00;&#x4E2A;stroke-linejoin&#x5C5E;&#x6027;&#xFF0C;&#x7528;&#x6765;&#x63A7;&#x5236;&#x4E24;&#x6761;&#x63CF;&#x8FB9;&#x7EBF;&#x6BB5;&#x4E4B;&#x95F4;&#xFF0C;&#x7528;&#x4EC0;&#x4E48;&#x65B9;&#x5F0F;&#x8FDE;&#x63A5;&#x3002;</li>
+</ul>
+<p><img src="https://cloud.hunger-valley.com/18-10-15/74097798.jpg" alt=""></p>
+<pre><code>&lt;?xml version=&quot;1.0&quot; standalone=&quot;no&quot;?&gt;
+&lt;svg width=&quot;160&quot; height=&quot;280&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;&gt;
+  &lt;polyline points=&quot;40 60 80 20 120 60&quot; stroke=&quot;black&quot; stroke-width=&quot;20&quot;
+      stroke-linecap=&quot;butt&quot; fill=&quot;none&quot; stroke-linejoin=&quot;miter&quot;/&gt;
+
+  &lt;polyline points=&quot;40 140 80 100 120 140&quot; stroke=&quot;black&quot; stroke-width=&quot;20&quot;
+      stroke-linecap=&quot;round&quot; fill=&quot;none&quot; stroke-linejoin=&quot;round&quot;/&gt;
+
+  &lt;polyline points=&quot;40 220 80 180 120 220&quot; stroke=&quot;black&quot; stroke-width=&quot;20&quot;
+      stroke-linecap=&quot;square&quot; fill=&quot;none&quot; stroke-linejoin=&quot;bevel&quot;/&gt;
+&lt;/svg&gt;
+</code></pre><p>&#x6BCF;&#x6761;&#x6298;&#x7EBF;&#x90FD;&#x662F;&#x7531;&#x4E24;&#x4E2A;&#x7EBF;&#x6BB5;&#x8FDE;&#x63A5;&#x8D77;&#x6765;&#x7684;&#xFF0C;&#x8FDE;&#x63A5;&#x5904;&#x7684;&#x6837;&#x5F0F;&#x7531;stroke-linejoin&#x5C5E;&#x6027;&#x63A7;&#x5236;&#xFF0C;&#x5B83;&#x6709;&#x4E09;&#x4E2A;&#x53EF;&#x7528;&#x7684;&#x503C;&#xFF0C;miter&#x662F;&#x9ED8;&#x8BA4;&#x503C;&#xFF0C;&#x8868;&#x793A;&#x7528;&#x65B9;&#x5F62;&#x753B;&#x7B14;&#x5728;&#x8FDE;&#x63A5;&#x5904;&#x5F62;&#x6210;&#x5C16;&#x89D2;&#xFF0C;round&#x8868;&#x793A;&#x7528;&#x5706;&#x89D2;&#x8FDE;&#x63A5;&#xFF0C;&#x5B9E;&#x73B0;&#x5E73;&#x6ED1;&#x6548;&#x679C;&#x3002;&#x6700;&#x540E;&#x8FD8;&#x6709;&#x4E00;&#x4E2A;&#x503C;bevel&#xFF0C;&#x8FDE;&#x63A5;&#x5904;&#x4F1A;&#x5F62;&#x6210;&#x4E00;&#x4E2A;&#x659C;&#x63A5;&#x3002;</p>
+<p>&#x6700;&#x540E;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x6307;&#x5B9A;stroke-dasharray&#x5C5E;&#x6027;&#xFF0C;&#x5C06;&#x865A;&#x7EBF;&#x7C7B;&#x578B;&#x5E94;&#x7528;&#x5728;&#x63CF;&#x8FB9;&#x4E0A;&#x3002;</p>
+<p><img src="https://cloud.hunger-valley.com/18-10-15/82399446.jpg" alt=""></p>
+<pre><code>
+&lt;?xml version=&quot;1.0&quot; standalone=&quot;no&quot;?&gt;
+&lt;svg width=&quot;200&quot; height=&quot;150&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;&gt;
+  &lt;path d=&quot;M 10 75 Q 50 10 100 75 T 190 75&quot; stroke=&quot;black&quot;
+    stroke-linecap=&quot;round&quot; stroke-dasharray=&quot;5,10,5&quot; fill=&quot;none&quot;/&gt;
+  &lt;path d=&quot;M 10 75 L 190 75&quot; stroke=&quot;red&quot;
+    stroke-linecap=&quot;round&quot; stroke-width=&quot;1&quot; stroke-dasharray=&quot;5,5&quot; fill=&quot;none&quot;/&gt;
+&lt;/svg&gt;
+</code></pre><p>stroke-dasharray&#x5C5E;&#x6027;&#x7684;&#x53C2;&#x6570;&#xFF0C;&#x662F;&#x4E00;&#x7EC4;&#x7528;&#x9017;&#x53F7;&#x5206;&#x5272;&#x7684;&#x6570;&#x5B57;&#x7EC4;&#x6210;&#x7684;&#x6570;&#x5217;&#x3002;&#x6CE8;&#x610F;&#xFF0C;&#x548C;path&#x4E0D;&#x4E00;&#x6837;&#xFF0C;&#x8FD9;&#x91CC;&#x7684;&#x6570;&#x5B57;&#x5FC5;&#x987B;&#x7528;&#x9017;&#x53F7;&#x5206;&#x5272;&#xFF08;&#x7A7A;&#x683C;&#x4F1A;&#x88AB;&#x5FFD;&#x7565;&#xFF09;&#x3002;&#x6BCF;&#x4E00;&#x7EC4;&#x6570;&#x5B57;&#xFF0C;&#x7B2C;&#x4E00;&#x4E2A;&#x7528;&#x6765;&#x8868;&#x793A;&#x586B;&#x8272;&#x533A;&#x57DF;&#x7684;&#x957F;&#x5EA6;&#xFF0C;&#x7B2C;&#x4E8C;&#x4E2A;&#x7528;&#x6765;&#x8868;&#x793A;&#x975E;&#x586B;&#x8272;&#x533A;&#x57DF;&#x7684;&#x957F;&#x5EA6;&#x3002;&#x6240;&#x4EE5;&#x5728;&#x4E0A;&#x9762;&#x7684;&#x4F8B;&#x5B50;&#x91CC;&#xFF0C;&#x7B2C;&#x4E8C;&#x4E2A;&#x8DEF;&#x5F84;&#x4F1A;&#x5148;&#x505A;5&#x4E2A;&#x50CF;&#x7D20;&#x5355;&#x4F4D;&#x7684;&#x586B;&#x8272;&#xFF0C;&#x7D27;&#x63A5;&#x7740;&#x662F;5&#x4E2A;&#x7A7A;&#x767D;&#x5355;&#x4F4D;&#xFF0C;&#x7136;&#x540E;&#x53C8;&#x662F;5&#x4E2A;&#x5355;&#x4F4D;&#x7684;&#x586B;&#x8272;&#x3002;&#x5982;&#x679C;&#x4F60;&#x60F3;&#x8981;&#x66F4;&#x590D;&#x6742;&#x7684;&#x865A;&#x7EBF;&#x6A21;&#x5F0F;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5B9A;&#x4E49;&#x66F4;&#x591A;&#x7684;&#x6570;&#x5B57;&#x3002;&#x7B2C;&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;&#x6307;&#x5B9A;&#x4E86;3&#x4E2A;&#x6570;&#x5B57;&#xFF0C;&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x6570;&#x5B57;&#x4F1A;&#x5FAA;&#x73AF;&#x4E24;&#x6B21;&#xFF0C;&#x5F62;&#x6210;&#x4E00;&#x4E2A;&#x5076;&#x6570;&#x7684;&#x865A;&#x7EBF;&#x6A21;&#x5F0F;&#xFF08;&#x5947;&#x6570;&#x4E2A;&#x5FAA;&#x73AF;&#x4E24;&#x6B21;&#x53D8;&#x5076;&#x6570;&#x4E2A;&#xFF09;&#x3002;&#x6240;&#x4EE5;&#x8BE5;&#x8DEF;&#x5F84;&#x9996;&#x5148;&#x6E32;&#x67D3;5&#x4E2A;&#x586B;&#x8272;&#x5355;&#x4F4D;&#xFF0C;10&#x4E2A;&#x7A7A;&#x767D;&#x5355;&#x4F4D;&#xFF0C;5&#x4E2A;&#x586B;&#x8272;&#x5355;&#x4F4D;&#xFF0C;&#x7136;&#x540E;&#x56DE;&#x5934;&#x4EE5;&#x8FD9;3&#x4E2A;&#x6570;&#x5B57;&#x505A;&#x4E00;&#x6B21;&#x5FAA;&#x73AF;&#xFF0C;&#x4F46;&#x662F;&#x8FD9;&#x6B21;&#x662F;&#x521B;&#x5EFA;5&#x4E2A;&#x7A7A;&#x767D;&#x5355;&#x4F4D;&#xFF0C;10&#x4E2A;&#x586B;&#x8272;&#x5355;&#x4F4D;&#xFF0C;5&#x4E2A;&#x7A7A;&#x767D;&#x5355;&#x4F4D;&#x3002;&#x901A;&#x8FC7;&#x8FD9;&#x4E24;&#x6B21;&#x5FAA;&#x73AF;&#x5F97;&#x5230;&#x5076;&#x6570;&#x6A21;&#x5F0F;&#xFF0C;&#x5E76;&#x5C06;&#x8FD9;&#x4E2A;&#x5076;&#x6570;&#x6A21;&#x5F0F;&#x4E0D;&#x65AD;&#x91CD;&#x590D;&#x3002;</p>
+<p>&#x53E6;&#x5916;&#x8FD8;&#x6709;&#x4E00;&#x4E9B;&#x5173;&#x4E8E;&#x586B;&#x5145;&#x548C;&#x8FB9;&#x6846;&#x7684;&#x5C5E;&#x6027;&#xFF0C;&#x5305;&#x62EC;fill-rule&#xFF0C;&#x7528;&#x4E8E;&#x5B9A;&#x4E49;&#x5982;&#x4F55;&#x7ED9;&#x56FE;&#x5F62;&#x91CD;&#x53E0;&#x7684;&#x533A;&#x57DF;&#x4E0A;&#x8272;&#xFF1B;stroke-miterlimit&#xFF0C;&#x5B9A;&#x4E49;&#x4EC0;&#x4E48;&#x60C5;&#x51B5;&#x4E0B;&#x7ED8;&#x5236;&#x6216;&#x4E0D;&#x7ED8;&#x5236;&#x8FB9;&#x6846;&#x8FDE;&#x63A5;&#x7684;miter&#x6548;&#x679C;&#xFF1B;&#x8FD8;&#x6709;stroke-dashoffset&#xFF0C;&#x5B9A;&#x4E49;&#x865A;&#x7EBF;&#x5F00;&#x59CB;&#x7684;&#x4F4D;&#x7F6E;&#x3002;</p>
+<h2 id="&#x4F7F;&#x7528;css">&#x4F7F;&#x7528;CSS</h2>
+<p>&#x9664;&#x4E86;&#x5B9A;&#x4E49;&#x5BF9;&#x8C61;&#x7684;&#x5C5E;&#x6027;&#x5916;&#xFF0C;&#x4F60;&#x4E5F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;CSS&#x6765;&#x6837;&#x5F0F;&#x5316;&#x586B;&#x5145;&#x548C;&#x63CF;&#x8FB9;&#x3002;&#x8BED;&#x6CD5;&#x548C;&#x5728;html&#x91CC;&#x4F7F;&#x7528;CSS&#x4E00;&#x6837;&#xFF0C;&#x53EA;&#x4E0D;&#x8FC7;&#x4F60;&#x8981;&#x628A;background-color&#x3001;border&#x6539;&#x6210;fill&#x548C;stroke&#x3002;&#x6CE8;&#x610F;&#xFF0C;&#x4E0D;&#x662F;&#x6240;&#x6709;&#x7684;&#x5C5E;&#x6027;&#x90FD;&#x80FD;&#x7528;CSS&#x6765;&#x8BBE;&#x7F6E;&#x3002;&#x4E0A;&#x8272;&#x548C;&#x586B;&#x5145;&#x7684;&#x90E8;&#x5206;&#x4E00;&#x822C;&#x662F;&#x53EF;&#x4EE5;&#x7528;CSS&#x6765;&#x8BBE;&#x7F6E;&#x7684;&#xFF0C;&#x6BD4;&#x5982;fill&#xFF0C;stroke&#xFF0C;stroke-dasharray&#x7B49;&#xFF0C;&#x4F46;&#x662F;&#x4E0D;&#x5305;&#x62EC;&#x4E0B;&#x9762;&#x4F1A;&#x63D0;&#x5230;&#x7684;&#x6E10;&#x53D8;&#x548C;&#x56FE;&#x6848;&#x7B49;&#x529F;&#x80FD;&#x3002;&#x53E6;&#x5916;&#xFF0C;width&#x3001;height&#xFF0C;&#x4EE5;&#x53CA;&#x8DEF;&#x5F84;&#x7684;&#x547D;&#x4EE4;&#x7B49;&#x7B49;&#xFF0C;&#x90FD;&#x4E0D;&#x80FD;&#x7528;css&#x8BBE;&#x7F6E;&#x3002;&#x5224;&#x65AD;&#x5B83;&#x4EEC;&#x80FD;&#x4E0D;&#x80FD;&#x7528;CSS&#x8BBE;&#x7F6E;&#x8FD8;&#x662F;&#x6BD4;&#x8F83;&#x5BB9;&#x6613;&#x7684;&#x3002;</p>
+<pre><code>&lt;rect x=&quot;10&quot; height=&quot;180&quot; y=&quot;10&quot; width=&quot;180&quot; style=&quot;stroke: black; fill: red;&quot;/&gt;
+</code></pre><p>&#x6216;&#x8005;&#x5229;&#x7528;<style>设置一段样式段落。就像在html里这样的<style>一般放在<head>里，在svg里<style>则放在<defs>标签里。<defs>表示定义，这里面可以定义一些不会在SVG图形中出现、但是可以被其他元素使用的元素。</p>
+<pre><code>&lt;?xml version=&quot;1.0&quot; standalone=&quot;no&quot;?&gt;
+&lt;svg width=&quot;200&quot; height=&quot;200&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;&gt;
+  &lt;defs&gt;
+    &lt;style type=&quot;text/css&quot;&gt;&lt;![CDATA[
+       #MyRect {
+         stroke: black;
+         fill: red;
+       }
+    ]]&gt;&lt;/style&gt;
+  &lt;/defs&gt;
+  &lt;rect x=&quot;10&quot; height=&quot;180&quot; y=&quot;10&quot; width=&quot;180&quot; id=&quot;MyRect&quot;/&gt;
+&lt;/svg&gt;
+</code></pre><p>如上把样式放到一块你可以更轻松地调整一大组元素的样式，同样你也可以使用hover这样的伪类来创建翻转之类的效果:</p>
+<pre><code>#MyRect:hover {
+   stroke: black;
+   fill: blue;
+ }
+</code></pre><p>你最好读一下CSS教程以便掌握它，一些可以在html里使用的css，在svg里可能无法正常工作，比如before和after伪类。所以这里需要一点经验。</p>
+<p>你也可以定义一个外部的样式表，但是要符合normal XML-stylesheet syntax的CSS规则:</p>
+<pre><code>&lt;?xml version=&quot;1.0&quot; standalone=&quot;no&quot;?&gt;
+&lt;?xml-stylesheet type=&quot;text/css&quot; href=&quot;style.css&quot;?&gt;
+
+&lt;svg width=&quot;200&quot; height=&quot;150&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;&gt;
+  &lt;rect height=&quot;10&quot; width=&quot;10&quot; id=&quot;MyRect&quot;/&gt;
+&lt;/svg&gt;
+style.css看起来就像这样：
+
+#MyRect {
+  fill: red;
+  stroke: black;
+}
+</code></pre><h2>小实战</h2>
+<p>画一个进度为75%的环形，如下图所示</p>
+<p><img src="https://cloud.hunger-valley.com/18-10-15/67972809.jpg" alt=""></p>
+<pre><code>  &lt;style&gt;
+    #svg {
+      transform: rotate(90deg);
+    }
+    #svg circle {
+      stroke-dasharray: 314;
+      stroke-dashoffset: 78; 
+      /*Math.floor(2*Math.PI*50*(100-百分比)/100)*/
+      fill: none;
+    }
+  &lt;/style&gt;
+
+  &lt;svg id=&quot;svg&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;
+    &lt;circle id=&quot;circle&quot; cx=&quot;100&quot; cy=&quot;100&quot; r=&quot;50&quot; stroke=&quot;red&quot; stroke-width=&quot;10&quot;  stroke-linecap=&quot;round&quot; &gt;&lt;/circle&gt;
+  &lt;/svg&gt;
+</code></pre></style></p>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+
+            </div>
+
+            
+                
+                <a href="path.html" class="navigation navigation-prev " aria-label="Previous page: 路径">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="gradients.html" class="navigation navigation-next " aria-label="Next page: 渐变">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"填充与边框","level":"1.2.6","depth":2,"next":{"title":"渐变","level":"1.2.7","depth":2,"path":"chapter1/gradients.md","ref":"chapter1/gradients.md","articles":[]},"previous":{"title":"路径","level":"1.2.5","depth":2,"path":"chapter1/path.md","ref":"chapter1/path.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","theme-vuejs-2","-fontsettings","-highlight","github"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit This Page","base":"https://github.com/jirengu/svg-you-should-know/tree/master/docs"},"github":{"url":"https://github.com/jirengu/css-you-should-know/"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-vuejs-2":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"svg you should know","language":"zh-cn","links":{"sharing":{"facebook":false,"twitter":false}},"gitbook":"*"},"file":{"path":"chapter1/fill_and_stroke.md","mtime":"2018-10-15T04:15:14.608Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-10-15T08:11:01.404Z"},"basePath":"..","book":{"language":"zh-cn"}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+
+    </body>
+</html>
+
